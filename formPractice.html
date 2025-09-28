@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+</head>
+<body>
+    
+    <fieldset style="width: 500px;">
+        <legend style="text-align: center;"> <h1>Student Registration Form <i class="fa-solid fa-id-card"></i></h1></legend>
+        <form action="">
+        <label for="studroll">Roll no. :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" id="studroll" name="RollNo">
+        <br><br>
+
+        <label for="studname">Student Name :</label>
+        <input type="text" id="studname" name="FirstName" placeholder="First Name"> -
+        <input type="text" id="studname" name="LastName" placeholder="Last Name">
+        <br><br>
+
+        <label for="dob">Date of birth :</label>&nbsp;&nbsp;
+        <input type="date" id="dob" name="StudentDOB">
+        <br><br>
+
+        <label for="con">Mobile no. :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" style="width: 25px;" value="+91" readonly> -
+        <input type="tel" id="con" name="StudentContact">
+        <br><br>
+
+        <label for="studmail">Email :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" id="studmail" name="StudentEmail">
+        <br><br>
+
+        <label for="studpass">Password :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="password" id="studpass" name="StudentPassword">
+        <br><br>
+
+        <label for="genz">Gender :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="genz" name="Gender" value="male">Male
+        <input type="radio" id="genz" name="Gender" value="female">Female
+        <br><br>
+
+        <label for="studdept">Department :</label>&nbsp;&nbsp;
+        <input type="checkbox" id="studdept" name="StudentDepartment" value="CSE">CSE
+        <input type="checkbox" id="studdept" name="StudentDepartment" value="IT">IT
+        <input type="checkbox" id="studdept" name="StudentDepartment" value="Civil">Civil
+        <br><br>
+
+        <label for="studP">Profile :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="file" id="studP" name="StudentProfile">
+        <br><br>
+
+        <label for="studaddr">Address :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <textarea id="studaddr" name="StudentAddress" cols="30" rows="5"></textarea>
+        <br><br>
+
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button>Register</button>
+    </form>
+    </fieldset>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    
+    <form action="">
+        <h1>Student Registration Form</h1>
+
+<pre>
+Roll no. :       <input type="number" name="RollNo">
+Student Name :   <input type="text" name="FirstName" placeholder="First Name">
+                 <input type="text" name="LastName" placeholder="Last Name">
+Date of birth :  <input type="date" name="StudentDOB">
+Mobile no. :     <input type="tel" name="StudentContact">
+Email :          <input type="email" name="StudentEmail">
+Password :       <input type="password" name="StudentPassword">
+Gender :         <input type="radio" name="Gender" value="male">Male
+                 <input type="radio" name="Gender" value="female">Female
+Department :     <input type="checkbox" name="StudentDepartment" value="CSE">CSE
+                 <input type="checkbox" name="StudentDepartment" value="IT">IT
+                 <input type="checkbox" name="StudentDepartment" value="Civil">Civil
+Profile :        <input type="file" name="StudentProfile">
+Address :        <textarea name="StudentAddress" cols="30" rows="5"></textarea>
+
+                 <button>Register</button>
+</pre>
+
+    </form>
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    
+    <form action="">
+        <h1>Student Registration Form</h1>
+        <table>
+            <tr>
+                <td><label for="studroll">Roll no. :</label></td>
+                <td><input type="number" id="studroll" name="RollNo"></td>
+            </tr>
+
+            <tr>
+                <td><label for="studname">Student Name :</label></td>
+                <td>
+                    <input type="text" id="studname" name="FirstName" placeholder="First Name">
+                    <input type="text" id="studlname" name="LastName" placeholder="Last Name">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="dob">Date of birth :</label></td>
+                <td><input type="date" id="dob" name="StudentDOB"></td>
+            </tr>
+
+            <tr>
+                <td><label for="con">Mobile no. :</label></td>
+                <td><input type="tel" id="con" name="StudentContact"></td>
+            </tr>
+
+            <tr>
+                <td><label for="studmail">Email :</label></td>
+                <td><input type="email" id="studmail" name="StudentEmail"></td>
+            </tr>
+
+            <tr>
+                <td><label for="studpass">Password :</label></td>
+                <td><input type="password" id="studpass" name="StudentPassword"></td>
+            </tr>
+
+            <tr>
+                <td>Gender :</td>
+                <td>
+                    <input type="radio" name="Gender" value="male">Male
+                    <input type="radio" name="Gender" value="female">Female
+                </td>
+            </tr>
+
+            <tr>
+                <td>Department :</td>
+                <td>
+                    <input type="checkbox" name="StudentDepartment" value="CSE">CSE
+                    <input type="checkbox" name="StudentDepartment" value="IT">IT
+                    <input type="checkbox" name="StudentDepartment" value="Civil">Civil
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="studP">Profile :</label></td>
+                <td><input type="file" id="studP" name="StudentProfile"></td>
+            </tr>
+
+            <tr>
+                <td><label for="studaddr">Address :</label></td>
+                <td><textarea id="studaddr" name="StudentAddress" cols="30" rows="5"></textarea></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><button>Register</button></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

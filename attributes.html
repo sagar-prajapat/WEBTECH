@@ -1,0 +1,133 @@
+
+* attributes in html *
+->attributes are the added extension to tag which provides some extra information to html element such as styling
+  ,behaviour,effect and nature 
+  
+->attributes we will will define in two terms
+1.attribute with value for example style="",title=""
+2.attribute without value  - required,readonly
+
+->attributes will be written always inside opening tag of html
+->there are two type of attribute
+1.Global or core attribute - this attribute we can define in any tag or html element 1.id 2.class 3.style 4.title
+
+->style attribute will create tooltip for html element
+->title attribute will create tooltip for html element
+
+
+2. Element specific attribute - these attribute are being used in some specific or respective tags such as 
+src and alt - in image tag
+href - anchor tag
+
+FORMATTING TAGS OF HTML
+
+->b tag- it will make the element bold in nature it is incline element
+->strong tag - it makes the content bold as well as important for user or browser
+->i tag - italic tag,it makes content in italic format
+->em tag - emphersized tag, this tag makes the content in italic format only. this tag is alternative of i tag
+->u tag - this tag adds the underline to the content
+->ins tag - insert tag,this tag also adds underline to html element and it is alternative for u tag
+->sub tag - subscript tag,this tag makes the content slightly downward direction
+->sup tag - superscript tag,this tag makes the content slightly upwar direction
+->mark tag - mark tag tag will make conytent highlight,the default color of highlighter is yellow
+->q tag - this specific tag adds the quotation to html element
+
+->center tag and strike tag are depricated tags which means not in use mostly appears in red background-color
+
+->marquee tag -this tag makes the content to move from one direction to another direction
+->attributes present in marquee tag - behaviour="",direction="" and scrollamount=""
+
+
+
+13/09/2025
+
+List creation in html
+->there are four types of list in html
+1.ordered List
+2.unordered List
+3.description List
+4.nested list 
+
+ordered list - In ordered list we will have list items one by one in specific order manner such as numbers,
+alphabets and roman letters
+
+by default the order will be numbers
+<ol type="1" >
+        <li>Biriyani</li>
+        <li>Pizza</li>
+        <li>Dose</li>
+        <li >Panipuri</li>
+        <li>Idly</li>
+</ol>
+
+->with the help of type attribute we can change the order as well like by prividing values as 1,A,a,I,i
+
+start="" - with this attribute we can decide the starting position of the order
+
+reversed - reversed attribute is without value attribute which help us to make a list in reverse order
+
+
+unordered list - this list we will define the list items in casual manner wih the specific symbols
+<ul type="none">
+        <li>Swift</li>
+        <li>Lamborghini</li>
+        <li>Thar</li>
+        <li>Hycross</li>
+</ul>
+
+->by default the symbol will be disc
+->And with the help of type attribute we can change the symbol into some other type such as circle ,square and none
+
+Description list - description list we will use to define kind of description to some content (for the specific term one specific  description)
+-> with the help of dt(description tag) and dd(description data tag) we will create this List
+
+      <dl>
+        <dt><b>Collin sir</b></dt>
+        <dd>He is SQL trainner</dd>
+        <dd>He is kind person</dd>
+        <dt><i><b>Vijay sir</b></i></dt>
+        <dd>He is Java trainner</dd>
+        <dd>He is calm person</dd>
+     </dl>
+
+Nested list - a list inside another list is called as nested list. we can define any type of List
+inside some other types out of all list we have
+
+
+TABLE CREATION IN HTML
+
+->table is logical structure of rows,column and cells to store the data i systamatic format
+->to create table we will use table tag as an root tag and ir is paired tag
+->to define table heading part and table body we will use thead and tbody tag respectively.
+these two tags are optional to use
+
+->to define heading content we will use th tag
+->to define table data content we will use td tag
+->to define table row we will use tr tag
+
+for example -
+
+<table>
+        <thead>
+            <tr>
+                <th>EID</th>
+                <th>Ename</th>
+                <th>Sal</th>
+                <th>Job</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>123</td>
+                <td>Pradeep</td>
+                <td>100</td>
+                <td>trainer</td>
+            </tr>
+
+            <tr>
+                <td>124</td>
+                <td>Mohit</td>
+                <td>80</td>
+                <td>trainer</td>
+            </tr>
