@@ -1,0 +1,39 @@
+ /* section h1{
+    color: aquamarine;
+} */
+ 
+
+/* descendant selector */
+/* .contact-article h1{
+    color: red;
+ }  */
+
+
+ /* child selector(>) */
+ /* section>h1{
+    background-color: plum;
+ }
+
+ article>h1{
+    background-color: yellow;
+ } */
+
+
+ /* adjusant sibling selector (+)*/
+
+ /* article h1+h1{
+    background-color: blue;
+ }
+
+ section h1+h1{
+    background-color: pink;
+ } */
+
+ /* general sibling(~) */
+ article h1+h1{
+    background-color: blue;
+ }
+
+ section h1+h1{
+    background-color: pink;
+ }

@@ -1,0 +1,56 @@
+
+/*id selector  */
+/* #sp{
+    background-color: yellow;
+}
+
+#jp{
+    background-color: aquamarine;
+}
+
+#kp{
+    background-color: orange;
+}
+
+h1{
+    background-color: red;
+}  */
+
+/* class selector */
+
+/* .bike{
+    background-color: red;
+}
+
+.car{
+    background-color: lightgreen;
+    font-size: 50px;
+    border: 5px solid black;
+} */
+
+
+/* group selector */
+
+.img{
+    border: 10px solid black;
+}
+
+#car1,#car2{
+    padding: 20px;
+    background-color: plum;
+}
+
+/* tag selector */
+
+b,i,u{
+    font-size: 50px;
+    background-color: aqua;
+    text-decoration: none;
+}
+
+/* universal selector */
+ *{
+    background-color: aquamarine;
+    font-size: 100px;
+    color: yellow;
+ }
