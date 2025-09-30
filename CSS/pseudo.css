@@ -1,0 +1,62 @@
+
+/* Dynamic Pseudo class selector  */
+/* hover */
+.sc{
+    color: yellow;
+}
+
+.sc:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.btn{
+    background-color: lightgreen;
+    border: none;
+}
+
+.btn:hover{
+    background-color: blueviolet;
+    box-shadow: 0 0 2px 3px orange;
+}
+
+/* active */
+a:active{
+    color: white;
+    background-color: black;
+}
+
+h1:active{
+    color: aquamarine;
+}
+
+input:active{
+    background-color: blueviolet;
+}
+
+
+/*focus  */
+input:focus{
+    background-color: aqua;
+}
+
+/* childs */
+section p:first-child{
+    background-color: burlywood;
+}
+
+
+section p:last-child{
+    background-color: yellow;
+}
+
+section p:nth-child(3){
+    background-color: gray;
+}
+
+section p:nth-child(even){
+    background-color: yellowgreen;
+}
+
+
+
