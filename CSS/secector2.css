@@ -1,0 +1,23 @@
+/* p::selection{
+    background-color: purple;
+    color: white;
+}
+
+p::before{
+    content: "🔞";
+}
+
+p::after{
+    content: "Thank You!!";
+} */
+
+
+/* Attribute selector */
+input[type]{
+    background-color: pink;
+}
+
+/* Attribute with value attribute  */
+input[type="text"]{
+    width: 300px;
+}
