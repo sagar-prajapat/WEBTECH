@@ -1,0 +1,23 @@
+body{
+    /* height:170vh; */
+    height:200vh;
+}
+
+/* position fixed */
+/* .box{
+    height: 100px;
+    width: 300px;
+    background-color: orange;
+    position: fixed;
+    top: 480px;
+    right: 0;
+} */
+
+/* position sticky */
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: orange;
+    position: sticky;
+    top: 100px;
+}
