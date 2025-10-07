@@ -1,0 +1,63 @@
+h1{
+    /* text-align: center; */
+    /* shift the content to center */
+
+    /* text-align: right; */
+     /* shift the content to right side */
+
+    text-align: justify;
+    /* makes the text align evenly along both the left and right edges of its container. */
+
+    text-decoration: underline; 
+    /* add underline to the content */
+
+    /* text-decoration: overline; */
+    /* add line above the content */
+
+    text-transform: capitalize;
+    /* make first letter of each word capital */
+
+    /* text-transform: lowercase; */
+    /* make the content in lowercase */
+
+    /* text-transform: uppercase; */
+    /* make the content in uppercase */
+
+    text-shadow: 3px 3px 6px black;
+    /* text-shadow:right bottom blur color */
+
+    text-decoration-color: red;
+    /* set the color of underline */
+
+    text-decoration-thickness: 5px;
+    /* thickness or width of underline */
+
+    text-underline-offset: 20px;
+    /* controls how far the underline is placed from the text. */
+}
+
+p{
+    text-align: justify;
+
+    /* text-decoration: line-through; */
+    /* add line on the content */
+
+    text-indent: 100px;
+    
+    letter-spacing: 1px;
+    /* space between each letter */
+
+    word-spacing: 5px;
+    /* space between each word */
+
+    font-size: 20px;
+    /* size of font */
+
+    font-size: x-large;
+   /* size of font */
+
+    font-family: cursive;
+    /* type of font */
+
+    line-height: 50px;
+}
