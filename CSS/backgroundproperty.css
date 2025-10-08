@@ -1,0 +1,59 @@
+/* .bg{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    background:linear-gradient(45deg,orange,white,green);
+}
+
+.by{
+     height: 300px;
+     width: 300px;
+     border-radius: 50%;
+     background-color: red;
+     background:radial-gradient(pink,skyblue,purple,orange,yellow,green,green)
+}
+
+.bz{
+    height: 300px;
+     width: 300px;
+     border-radius: 50%;
+     background-color: red;
+     background:conic-gradient(Red, Orange, Yellow, Green, Blue, Indigo, Violet)
+} */
+
+
+.bg{
+    height: 600px;
+    width: 100%;
+    background-color: yellow;
+    background-image: url(https://m.media-amazon.com/images/I/51fY0wjRGTL._UF894,1000_QL80_.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.innerbg{
+    height: 600px;
+    width: 68%;
+    background-color: red;
+    background-image: url(https://i.pinimg.com/736x/d0/b2/86/d0b28676e390a1c767ac9f5336ce8ea5.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    background-position: center;
+    filter: blur(2px);
+
+}
+
+/* .innerbg{
+     height: 600px;
+     width: 52%;
+    background-color: red;
+    background-image: url(https://i.redd.it/my-top-five-handsome-lead-male-actors-of-tamil-cinema-v0-3l6tyaxa622e1.png?width=850&format=png&auto=webp&s=c5107526e25fb90c6eb173ecf87c1dd154eac82a);
+     background-size: contain;
+     
+     background-position: left;
+     background-repeat: no-repeat;
+    filter: blur(4px);
+   
+} */
