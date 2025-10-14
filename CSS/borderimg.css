@@ -1,0 +1,45 @@
+.box{
+    /* height: 200px;
+    width: 200px;
+    background-color: red; */
+    /* border: 30px solid black;
+    border-image: url(../car4.jpg) stretch 80;
+    overflow: hidden; */
+    /* overflow: scroll; */
+    /* resize: both; */
+    /* resize: horizontal; */
+    /* resize: vertical; */
+
+    /* margin: 30px;
+    border: 20px solid black;
+    padding: 20px; */
+}
+
+/* .box2{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    outline: 20px solid black; 
+    outline-offset: 20px;
+    margin: 20px;
+} */
+/* 
+input{
+    margin: 30px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+} */
+.box{
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    
+    border: 20px solid black;
+    background-color:green;
+    background-color:rgb(151, 176, 38);
+    background-color:rgba(151, 176, 38,0.5);    
+    background-color: #f300a4; 
+    background-color: hsl(45deg, 45%, 45%);
+    background-color: hsla(hue, saturation, lightness, alpha);
+}
